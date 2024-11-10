@@ -1,0 +1,186 @@
+table.ex1, th, td {
+  border: 1px solid black;
+}
+
+table.ex2, th, td {
+  border: 1px solid black;
+}
+
+table.ex2 {
+  width: 100%;
+}
+
+table.ex3, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.ex3 {
+  width: 100%;
+}
+
+table.ex4, th, td {
+  border: none;
+}
+
+table.ex4 {
+  border: 1px solid black;
+  width: 100%;
+}
+
+table.ex5, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.ex5 {
+  width: 100%;
+}
+
+table.ex5 th {
+  height: 60px;
+}
+
+table.ex6, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.ex6 {
+  width: 50%;
+}
+
+table.ex7, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.ex7 {
+  width: 100%;
+}
+
+table.ex7 td {
+  text-align: center;
+}
+
+table.ex8, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.ex8 {
+  width: 100%;
+}
+
+table.ex8 td {
+  vertical-align: bottom;
+  height: 50px;
+}
+
+table.ex8 th {
+  height: 30px;
+}
+
+table.ex9, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.ex9 {
+  width: 100%;
+}
+
+table.ex9 td {
+ padding: 20px;
+}
+
+table.ex9 th {
+  padding: 20px;
+}
+
+table.ex10 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.ex10 th {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+table.ex10 td {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+
+table.ex11, th, td {
+  border-collapse: collapse;
+}
+
+table.ex11 {
+  width: 100%;
+}
+
+table.ex11 th {
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+table.ex11 td {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+table.ex11 tr:hover {
+  background-color: orange;
+}
+
+table.ex12 {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+
+table.ex12 th {
+  background-color: green;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  border: none;
+}
+
+table.ex12 td {
+  padding: 10px;
+  border: none;
+}
+
+table.ex12 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table.ex13 {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table.ex13 td {
+  border: none;
+  padding: 5px;
+}
+
+table.ex13 th {
+  border: none;
+  text-align: left;
+  padding: 5px;
+}
+
+table.ex13 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
